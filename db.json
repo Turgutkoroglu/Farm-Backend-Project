@@ -1,0 +1,123 @@
+{
+  "cattle": [
+    {
+      "id": 1,
+      "name": "Fatma",
+      "birthdate": "20100809",
+      "deathdate": "",
+      "ear_number": 500,
+      "gender": "female",
+      "motherId": 0,
+      "fatherId": 0,
+      "race": "holstein",
+      "color": "black",
+      "chest_size": [
+        2.21,
+        2
+      ],
+      "birth_number": 5,
+      "cause_of_death": ""
+    },
+    {
+      "id": 2,
+      "name": "Balkiz",
+      "birthdate": "20150708",
+      "deathdate": "",
+      "ear_number": 450,
+      "gender": "Female",
+      "motherId": 1,
+      "fatherId": 0,
+      "race": "Simental",
+      "color": "Rot",
+      "chest_size": [
+        1.5,
+        1.5
+      ],
+      "birth_number": 5,
+      "cause_of_death": "illness"
+    }
+  ],
+  "chickens": [
+    {
+      "id": 1,
+      "gender": "female",
+      "daily_egg_number": 1
+    }
+  ],
+  "vets": [
+    {
+      "id": 1,
+      "name": "Halil",
+      "phone_number": 5531757714,
+      "location": "Karabogurtlen",
+      "expensiveness": true
+    }
+  ],
+  "feeds": [
+    {
+      "id": 1,
+      "name": "cp",
+      "price": 560
+    },
+    {
+      "id": 2,
+      "name": "Tarim kredi",
+      "price": 534
+    },
+    {
+      "id": 3,
+      "name": "Arpa",
+      "price": 470
+    },
+    {
+      "id": 4,
+      "name": "Misir",
+      "price": 510
+    },
+    {
+      "id": 5,
+      "name": "Kapcik",
+      "price": 300
+    }
+  ],
+  "butchers": [
+    {
+      "id": 1,
+      "name": "Halil",
+      "phone_number": 5531757714,
+      "agreement_rate": true,
+      "price_of_meat": 355
+    },
+    {
+      "id": 2,
+      "name": "İsmail",
+      "phone_number": 5364478825,
+      "agreement_rate": false,
+      "price_of_meat": 360
+    }
+  ],
+  "feed_sellers": [
+    {
+      "Id": 1,
+      "name": "osman",
+      "phone_number": 5531757714,
+      "price": 470
+    }
+  ],
+  "monthly_income": [
+    {
+      "monthly_egg_number": 20,
+      "an_egg_price": 6,
+      "monthly_milk_Lt": 3900,
+      "milk_price_Lt": 14,
+      "monthly_meat_kg": 100,
+      "meat_price_kg": 355
+    }
+  ],
+  "monthly_expense": [
+    {
+      "feed_price": 45000,
+      "vet_price": 3000
+    }
+  ]
+}
